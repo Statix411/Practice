@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <center><h1 class="logo">ЛистОК</h1></center>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-11 center-block">
+           <input type="text" id="maininput" onchange="insertIt(this.value)">
+        </div>
+        <div class="col-md-1 center-block">
+            <input type="button" class="butts" value="ОК">
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-1 text-center">
+           <ul id="lestnum"></ul>
+        </div>
+        <div class="col-md-11">
+           <ul id="lest"></ul>
+        </div>
+      </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

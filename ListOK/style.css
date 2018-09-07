@@ -1,0 +1,60 @@
+.logo{
+    color: #ffae00;
+    
+}
+
+
+#maininput{
+    margin-left: 30px;
+    width: 100%;
+    height: 40px;
+    border: 2px solid #ffae00;
+}
+
+.butts{
+    color: #ffae00;
+    height: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #ffae00;
+    margin-left: 15px;
+}
+
+#lest{
+   
+    margin-top: 0px;
+    list-style-type: none;
+}
+
+#lest li{
+    margin-top: 20px;
+    width: 94%;
+    min-height: 45px;
+    font-size: 16pt;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #ffae00;
+}
+
+
+#lestnum{
+   
+    
+    list-style-type: none;
+}
+
+#lestnum li{
+    margin-top: 20px;
+    border-radius: 20px;
+    min-height: 45px;
+    font-size: 16pt;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: #ffae00;
+}
+
+
